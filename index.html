@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="https://static.eldorado.ru/promo/default/css/normalize.css" type="text/css" rel="stylesheet">
+	<link href="https://static.eldorado.ru/promo/default/css/custom.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="promo-wrapper">
+		<div class="container-promo">
+			<div class="header-menu">
+				<div class="header-menu__item header-menu__item_active" data-menu="0">Создание списка</div>
+				<div class="header-menu__item" data-menu="1">Добавление SKU в список</div>
+				<div class="header-menu__item" data-menu="2">Удаление SKU из списка</div>
+			</div>
+
+
+		<section class="section" data-type='create'>
+				<button class="data-clear-button js-data-clear-button">Очистить данные</button>
+				<h2 class="items-list-title">SKUs для формирования списка</h2>
+				<textarea class="items-import js-items-import"></textarea>
+				<button class="create-list-button js-create-sale-button">Получить список Скидки</button>
+				<button class="create-list-button js-create-shields-button">Получить список Шильдиков</button>
+				<h2 class="items-list-title">Сформированный список
+					<button class="copy-list-button js-copy-list-button">Скопировать</button>
+				</h2>
+				<textarea class="new-items-list js-new-items-list"></textarea>
+		</section>
+
+		<section class="section" data-type='add'>
+				<button class="data-clear-button js-data-clear-button">Очистить данные</button>
+				<h2 class="items-list-title">Текущий список с сайта</h2>
+				<textarea class="current-list js-current-list"></textarea>
+				<h2 class="items-list-title">SKUs для добавления в список</h2>
+				<textarea class="items-import js-items-import"></textarea>
+				<button class="create-list-button js-create-sale-button">Получить список Скидки</button>
+				<button class="create-list-button js-create-shields-button">Получить список Шильдиков</button>
+				<h2 class="items-list-title">Сформированный список
+					<button class="copy-list-button js-copy-list-button">Скопировать</button>
+				</h2>
+				<textarea class="new-items-list js-new-items-list"></textarea>
+		</section>
+
+		<section class="section" data-type='delete'>
+				<button class="data-clear-button js-data-clear-button">Очистить данные</button>
+				<h2 class="items-list-title">Текущий список с сайта</h2>
+				<textarea class="current-list js-current-list"></textarea>
+				<h2 class="items-list-title">SKUs для удаления из списка</h2>
+				<textarea class="items-import js-items-import"></textarea>
+				<button class="create-list-button js-create-sale-button">Получить список Скидки</button>
+				<button class="create-list-button js-create-shields-button">Получить список Шильдиков</button>
+				<h2 class="items-list-title">Сформированный список
+					<button class="copy-list-button js-copy-list-button">Скопировать</button>
+				</h2>
+				<textarea class="new-items-list js-new-items-list"></textarea>
+		</section>
+		</div>
+
+	</div>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
