@@ -1,0 +1,6 @@
+# ignore folder
+.idea
+js/main.js
+css/style.css
+index.html
+
